@@ -1,44 +1,59 @@
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+
 export default function Blogs() {
   return (
-    <main className="container py-4">
-      <h1>Blogs</h1>
-      <div>
-        <div className="row">
-          <div className="col-md-6">
-            <div className="card mt-3">
-              <div className="card-body">
-                <h5>Blog 1</h5>
-                <p className="card-text">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
-                </p>
+    <>
+      <Header />
+      <main className="container py-4">
+        <h1>Blogs</h1>
+        <div>
+          <div className="row">
+            <div className="col-md-6">
+              <div className="card mt-3">
+                <div className="card-body">
+                  <h5>Blog 1</h5>
+                  <p className="card-text">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="col-md-6">
-            <div className="card mt-3">
-              <div className="card-body">
-                <h5>Blog 1</h5>
-                <p className="card-text">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
-                </p>
+            <div className="col-md-6">
+              <div className="card mt-3">
+                <div className="card-body">
+                  <h5>Blog 1</h5>
+                  <p className="card-text">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="col-md-6">
-            <div className="card mt-3">
-              <div className="card-body">
-                <h5>Blog 1</h5>
-                <p className="card-text">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
-                </p>
+            <div className="col-md-6">
+              <div className="card mt-3">
+                <div className="card-body">
+                  <h5>Blog 1</h5>
+                  <p className="card-text">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </main>
+      </main>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br/>
+      <br/>
+      <br/>
+      
+      <Footer />
+    </>
   );
 }
